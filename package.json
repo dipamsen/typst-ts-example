@@ -1,0 +1,20 @@
+{
+  "name": "typst-render",
+  "private": true,
+  "version": "0.0.0",
+  "type": "module",
+  "scripts": {
+    "dev": "vite",
+    "build": "tsc && vite build",
+    "preview": "vite preview"
+  },
+  "devDependencies": {
+    "typescript": "^5.2.2",
+    "vite": "^5.0.8"
+  },
+  "dependencies": {
+    "@myriaddreamin/typst-ts-renderer": "^0.4.2-rc6",
+    "@myriaddreamin/typst-ts-web-compiler": "^0.4.2-rc6",
+    "@myriaddreamin/typst.ts": "^0.4.2-rc6"
+  }
+}
