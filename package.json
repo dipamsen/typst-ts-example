@@ -9,12 +9,13 @@
     "preview": "vite preview"
   },
   "devDependencies": {
-    "typescript": "^5.2.2",
-    "vite": "^5.0.8"
+    "typescript": "5.7.2",
+    "vite": "6.0.3"
   },
   "dependencies": {
-    "@myriaddreamin/typst-ts-renderer": "^0.4.2-rc6",
-    "@myriaddreamin/typst-ts-web-compiler": "^0.4.2-rc6",
-    "@myriaddreamin/typst.ts": "^0.4.2-rc6"
-  }
+    "@myriaddreamin/typst-ts-renderer": "0.5.1",
+    "@myriaddreamin/typst-ts-web-compiler": "0.5.1",
+    "@myriaddreamin/typst.ts": "0.5.1"
+  },
+  "license": "MIT"
 }

@@ -13,12 +13,12 @@ $typst.setCompilerInitOptions({
   getModule: () => new URL(compileUrl, import.meta.url),
 });
 
-let quest = `A uniform capillary tube of inner radius $r$ is dipped vertically into a beaker filled with water. The water rises to a height $h$ in the capillary tube above the water surface in the beaker. The surface tension of water is $sigma$. The angle of contact between water and the wall of the capillary tube is $theta$. Ignore the mass of water in the meniscus. Which of the following statements is (are) true?`;
+let quest = `In Typst, what is the purpose of a #raw("#set", lang: "typ") rule?`;
 let options = [
-  `For a given material of the capillary tube, $h$ decreases with increase in $r$`,
-  `For a given material of the capillary tube, $h$ is independent of $sigma$`,
-  `If this experiment is performed in a lift going up with a constant acceleration, then $h$ decreases`,
-  `$h$ is proportional to contact angle $theta$`,
+  `To set the value of a variable.`,
+  `To set default values for optional parameters on an element`,
+  `For template usage`,
+  `None of these`,
 ];
 const content = (width: number) => `
 #set page(width: ${width}pt, height: auto, margin: 1em)
